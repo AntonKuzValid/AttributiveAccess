@@ -1,4 +1,4 @@
 container:
-  image: openjdk:10-jdk-slim
+  image: maven:slim
 check_task:
   script: mvn verify
