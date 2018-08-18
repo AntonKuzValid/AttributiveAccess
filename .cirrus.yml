@@ -1,4 +1,4 @@
 container:
   image: openjdk:10-jdk-slim
 check_task:
-  script: mvn $MAVEN_CLI_OPTS verify site site:stage
+  script: mvn verify
