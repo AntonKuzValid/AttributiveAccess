@@ -1,4 +1,4 @@
 container:
   image: maven:slim
 check_task:
-  script: mvn verify
+  script: mvn test
